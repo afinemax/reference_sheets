@@ -5,7 +5,7 @@ Remove the `--global` to do a config for a local git repo.
 ```sh
 git config --global user.name "Your Name"  # Set global username
 git config --global user.email "your.email@example.com"  # Set global email
-git config --list  # View current configuration
+git config --list  # View current configurations
 git config --global --unset user.email  # Remove a config
 
 git config --global core.editor "nano -w"  # Change / choose .txt editor
