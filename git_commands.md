@@ -1,6 +1,7 @@
 
 
 ## Configuration
+Remove the `--global` to do a config for a local git repo. 
 ```sh
 git config --global user.name "Your Name"  # Set global username
 git config --global user.email "your.email@example.com"  # Set global email
@@ -10,6 +11,8 @@ git config --global --unset user.email  # Remove a config
 git config --global core.editor "nano -w"  # Change / choose .txt editor
 git config --global init.defaultBranch main  # Set default branch name
 git config --global core.autocrlf input  # Tell git to always use the same line ending between mac, linux, and windows (this is the Linux and mac command to run)
+git config --global pull.rebase false # attempts to merge only, not rebase when doing a git pull 
+
 ```
 
 ## Repository Setup
