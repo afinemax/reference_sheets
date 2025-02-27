@@ -69,6 +69,21 @@ git diff  <file>    # Show changes between commits
 git diff HEAD~i <file> # Show changes between commits since last commit, the ~i indicates how far back to look
 ```
 
+
+## Stop Tracking Files & Renaming them 
+This doesn't delete them, it stops git from tracking the file. 
+
+```sh
+git rm <file>            # Remove a file from the working directory and staging area
+git rm --cached <file>   # Remove a file from the staging area but keep it in the working directory
+git rm -r <directory>    # Recursively remove a directory and its contents
+git commit -m "Removed file"  # Commit the removal of the file
+
+git mv <old_filename> <new_filename>  # Rename the file in both the working directory and staging area
+git commit -m "Renamed <old_filename> to <new_filename>"  # Commit the change
+
+
+```
 ## Tagging
 ```sh
 git tag <tagname>   # Create a new tag
