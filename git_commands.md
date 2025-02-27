@@ -71,7 +71,7 @@ git diff HEAD~i <file> # Show changes between commits since last commit, the ~i 
 
 
 ## Stop Tracking Files & Renaming them 
-This doesn't delete them, it stops git from tracking the file. 
+This doesn't delete them, it stops git from tracking the file.  Maybe it does delete it.
 
 ```sh
 git rm <file>            # Remove a file from the working directory and staging area
