@@ -102,7 +102,7 @@ git submodule update --init --recursive  # Initialize and update submodules
 A `.gitignore` file tells Git which files (or patterns) it should ignore. This is useful for excluding files that are not needed in version control, such as temporary files, build artifacts, and IDE configurations. Place it in the root git dir. You want the `.gitignore` file tracked by git. Use for sensitive files. 
 
 There is a global git ignore! `touch ~/.gitignore_global` always ignore `.fits`, `.fil`,`.npz` etc  files, maybe keys. (doesn't have to be in the home dir)
-
+My global git ignore is `~/.gitignore_global`
 
 ```.gitignore
 # gitignore
