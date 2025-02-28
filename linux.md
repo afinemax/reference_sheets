@@ -15,6 +15,7 @@ touch <file>      # Create an empty file or update timestamp
 cat <file>        # Display the contents of a file
 top <file>        # Display the first 10 lines of a file
 xdg-open <file>   # Attempts to open a program or file in the default way for that file
+nano <file> # Opens the nano text editor in the terminal
 ```
 
 ## File Permissions
