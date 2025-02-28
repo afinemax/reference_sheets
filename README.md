@@ -5,3 +5,4 @@ This repository provides a collection of commonly used Git and Linux commands fo
 
 ## Contents:
 * [Git](https://github.com/afinemax/dev-reference/blob/master/git_commands.md) - Commands and workflow for using git
+* [Linux](https://github.com/afinemax/dev-reference/blob/master/linux.md) - Linux essentials, including basic SSH config 
