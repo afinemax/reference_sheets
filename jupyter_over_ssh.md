@@ -23,7 +23,5 @@ ssh -L 8888:localhost:8888 user@remote-server
 # Once the SSH tunnel is established, open your browser and go to:
 http://localhost:8888
 # Jupyter should now be accessible from your local machine.
-
-```
-# Now you have a secure way to run Jupyter Notebook remotely over SSH!
 # Pro tip, set up the host computer with a screen session to host the jupyter session 
+```
