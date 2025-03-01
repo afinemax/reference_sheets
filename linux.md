@@ -2,6 +2,7 @@
 ```sh
 ls                # List directory contents
 ls -lah           # List with details, including hidden files
+ls | wc -l        # Count the number of files and directories in the current directory usefull with the *
 pwd               # Print working directory
 cd <directory>    # Change directory
 mkdir <name>      # Create a new directory
@@ -18,11 +19,28 @@ xdg-open <file>   # Attempts to open a program or file in the default way for th
 nano <file> # Opens the nano text editor in the terminal
 ```
 
+## Piping Outputs and Redirecting to Files
+```sh
+command > file     # Redirect standard output to a file (overwrite)
+command >> file    # Append standard output to a file
+command &> file    # Redirect both standard output and error to a file
+command | another  # Pipe output of one command to another
+```
+
+## Size of Directories
+```sh
+du -h <directory>  # Show disk usage in human-readable format
+du -s <directory>  # Show total disk usage of a directory
+free -h            # Show available memory
+```
+
+
 ## File Permissions
 ```sh
 chmod 755 <file>  # Set read/write/execute for owner, read/execute for others
 chmod +x <file>   # Make file executable
 chown user:group <file>  # Change file owner and group
+su <user>                # Switch to another user
 ```
 
 ## Process Management
@@ -85,3 +103,10 @@ export DISPLAY=:0 # Set display environment variable (if needed)
 
 
 
+## Package Management (Debian Based IE Ubuntu)
+```sh
+apt update                     # Update package lists
+apt upgrade                    # Upgrade installed packages
+apt install <package>          # Install a package
+apt remove <package>           # Remove a package
+```
