@@ -7,3 +7,4 @@ This repository provides a collection of commonly used Git and Linux commands fo
 * [Git](https://github.com/afinemax/dev-reference/blob/master/git_commands.md) - Commands and workflow for using git
 * [Linux](https://github.com/afinemax/dev-reference/blob/master/linux.md) - Linux essentials, including basic SSH config
 * [Juypter over ssh](https://github.com/afinemax/dev-reference/blob/master/jupyter_over_ssh.md) - How to run a jupyter-notebook session over an SSH tunnel 
+* [Anaconda Environments](https://github.com/afinemax/dev-reference/blob/master/managing_python_conda_envs.md) - How to create, switch, import, export anaconda python environments, as well as installing packages. 
