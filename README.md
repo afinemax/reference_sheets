@@ -8,3 +8,4 @@ This repository serves as a collection of commonly used Git, Linux, Python, and 
 * [Linux](https://github.com/afinemax/dev-reference/blob/master/linux.md) - Linux essentials, including basic SSH config
 * [Juypter over ssh](https://github.com/afinemax/dev-reference/blob/master/jupyter_over_ssh.md) - How to run a jupyter-notebook session over an SSH tunnel 
 * [Anaconda Environments](https://github.com/afinemax/dev-reference/blob/master/managing_python_conda_envs.md) - How to create, switch, import, export anaconda `python` environments, as well as installing packages. 
+* [Docker](https://github.com/afinemax/dev-reference/blob/master/docker_basics.md)- How download, and run a docker image, how use a docker compose `.yml` file, and how to start an interactive docker image session
