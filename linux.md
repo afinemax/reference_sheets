@@ -111,3 +111,25 @@ apt upgrade                    # Upgrade installed packages
 apt install <package>          # Install a package
 apt remove <package>           # Remove a package
 ```
+
+
+## Cronjob
+```sh
+crontab -e  # Open the crontab file in the default editor
+crontab -l  # List current cron jobs
+crontab -r  # Remove all cron jobs
+
+crontab -e  # Open the crontab file in the default editor
+# Add the cron job in the following format:
+# * * * * * /path/to/command  > /dev/null 2>&1
+# ┬ ┬ ┬ ┬ ┬
+# │ │ │ │ │
+# │ │ │ │ └─ Day of the week (0 - 6) (Sunday=0)
+# │ │ │ └──── Month (1 - 12)
+# │ │ └────── Day of the month (1 - 31)
+# │ └──────── Hour (0 - 23)
+# └────────── Minute (0 - 59)
+
+# the piping to dev null ensures to discard outputs and errors
+```
+
