@@ -33,7 +33,8 @@ git commit --amend   # Amend last commit
 
 ## Branching
 ```sh
-git branch           # List branches
+git branch           # See what Branch your on 
+git branch -a        # List out the Branches
 git branch <name>    # Create a new branch
 git checkout <name>  # Switch branches
 git checkout -b <name>  # Create and switch to a new branch
@@ -140,5 +141,24 @@ git fetch origin
 git pull origin <branch-name>
 
 ```
+
+
+## Commitzen commands 
+- [Commitzen](https://commitizen-tools.github.io/commitizen/) is used for formatting commits, and tagging for collaborations
+```sh
+
+cz commit # Make a conventional commit with an interactive prompt
+
+cz check  # Check that commit messages meet conventional standards
+
+cz bump   # Bump version based on commits and update changelog
+
+cz changelog # Generate changelog manually
+
+cz c # Use instead of git commit, use git add normally 
+```
+
+
+
 
 _This is a basic reference. For more details, consult `git help <command>`.
