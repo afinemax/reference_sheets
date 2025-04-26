@@ -83,6 +83,13 @@ rsync -avz file user@host:/path  # Sync files to a remote server
 ssh -J user@gateway user@destination  # SSH jump through an intermediate server
 ```
 
+# AutoSSH Basics
+```sh
+autossh -M 0 user@host                 # Automatically reconnect on failure
+autossh -M 0 -i key.pem user@host       # Auto-reconnect using an SSH key
+autossh -M 0 -f -N -L 8080:localhost:80 user@host  # Auto-reconnect a local port forward
+```
+
 ## SSH Config File (~/.ssh/config)
 ```sh
 Host myserver
