@@ -9,6 +9,8 @@ docker pull <image>          # Download an image from Docker Hub
 docker run <image>           # Run a container from an image
 docker run -d <image>        # Run container in detached mode
 docker run -it <image> bash  # Start a container and open an interactive shell
+docker exec <container> <cmd>  # Run a command in a running container
+docker exec -it <container> bash     # Open an interactive shell inside a running container
 docker start <container>     # Start a stopped container
 docker stop <container>      # Stop a running container
 docker restart <container>   # Restart a container
