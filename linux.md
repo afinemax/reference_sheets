@@ -2,7 +2,9 @@
 ```sh
 ls                # List directory contents
 ls -lah           # List with details, including hidden files
-ls | wc -l        # Count the number of files and directories in the current directory usefull with the *
+ls | wc -l        # Count the number of files and directories in the current directory usefull with the *, the | pipes the output into the next cmd
+ls -ltr # -l is long, -t sorts by time, and -r is reverse
+wc -l filename.txt # Count the number of lines in the file 
 pwd               # Print working directory
 cd <directory>    # Change directory
 mkdir <name>      # Create a new directory
