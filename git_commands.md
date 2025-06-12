@@ -25,8 +25,9 @@ git clone <url>      # Clone a repository
 ```sh
 git status           # Check status of working directory
 git status --ignored # Check status of untracked files
-git add <file>       # Stage a file for commit
-git add .            # Stage all changes
+git add <file>       # Stage a specific file for commit
+git add .            # Stage all changes, including new untracked files
+git add -u .         # Stage modifications and deletions of tracked files only
 git commit -m "Message"  # Commit staged changes
 git commit --amend   # Amend last commit
 ```
@@ -37,9 +38,11 @@ git branch           # See what Branch your on
 git branch -a        # List out the Branches
 git branch <name>    # Create a new branch
 git checkout <name>  # Switch branches
+git switch <name> # Switch to branch <name>
 git checkout -b <name>  # Create and switch to a new branch
 git merge <branch>   # Merge branch into current branch
 git rebase <branch>  # Rebase current branch onto another
+git push --set-upstream origin <branch> # Create branch on upstream
 ```
 
 ## Remote Repositories
