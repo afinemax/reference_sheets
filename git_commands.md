@@ -146,6 +146,37 @@ git pull origin <branch-name>
 ```
 
 
+### Making a New Directory 
+
+```sh
+# 1. Create a new directory for your project and enter it
+mkdir <project_name>
+cd <project_name>
+
+# 2. Initialize a new git repository
+git init
+
+# 3. Create a README file (optional but recommended)
+echo "# <project_name>" >> README.md
+
+# 4. Stage your files and commit
+git add README.md
+git commit -m "Initial commit with README"
+
+# 5. Create a new repo on GitHub (replace <user> and <project_name>)
+# You can do this manually on GitHub website or use GitHub CLI:
+gh repo create <user>/<project_name> --ssh --public --confirm
+
+# 6. Link your local repo to the GitHub remote
+git remote add origin git@github.com:<user>/<project_name>.git
+
+# 7. Push your initial commit to the main branch on GitHub
+git branch -M main
+git push -u origin main
+
+```
+
+
 ## Commitzen commands 
 - [Commitzen](https://commitizen-tools.github.io/commitizen/) is used for formatting commits, and tagging for collaborations
 ```sh
