@@ -30,6 +30,18 @@ command &> file    # Redirect both standard output and error to a file
 command | another  # Pipe output of one command to another
 ```
 
+## Symbolic link and Mounting
+```sh
+ln -s <target> <link_name>   # Create a symbolic path pointing to <target>
+
+# Mount a remote directory via SSH (requires sshfs)
+sshfs <user>@<host>:/remote/path /local/mountpoint   # Mount remote dir to local path
+
+# Unmount the remote drive
+fusermount -u /local/mountpoint                      # Unmount the sshfs-mounted dir
+
+```
+
 ## Size of Directories
 ```sh
 du -h <directory>  # Show disk usage in human-readable format
