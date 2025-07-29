@@ -1,4 +1,4 @@
-# Dev Reference
+# reference_sheets
 
 ## Overview
 This repository serves as a collection of commonly used Git, Linux, Python, and development tools used in astronomy, Python, and Linux-based development environments. It is designed to provide me with a convenient way to recall solutions and workflows specific to astronomy research and software development, without needing to google or ask chat gpt, ensuring a smoother and more efficient workflow. Think of it as "figure it out once, and write it down — instead of forgetting in a few months." Not intended as tutorials, you should always make your own reference sheets. 
