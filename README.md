@@ -4,7 +4,7 @@
 This repository serves as a collection of commonly used Git, Linux, Python, and development tools used in astronomy, Python, and Linux-based development environments. It is designed to provide me with a convenient way to recall solutions and workflows specific to astronomy research and software development, without needing to google or ask chat gpt, ensuring a smoother and more efficient workflow. Think of it as "figure it out once, and write it down — instead of forgetting in a few months." Not intended as tutorials, you should always make your own reference sheets. 
 
 ## Contents:
-* [CHIME/FRB Notes](https://github.com/afinemax/reference_sheets/tree/master/chime_frb_system) - CHIME overview, and CHIME/FRB detection pipeline, baseband, and beamforming notes 
+* [Radio Astro Notes](https://github.com/afinemax/reference_sheets/tree/master/radio_astro) - CHIME overview, and CHIME/FRB detection pipeline, baseband, and beamforming notes 
 * [Git](https://github.com/afinemax/dev-reference/blob/master/git_commands.md) - Commands and workflow for using git  
 * [Linux](https://github.com/afinemax/dev-reference/blob/master/linux.md) - Linux essentials, including basic SSH config  
 * [Juypter over ssh](https://github.com/afinemax/dev-reference/blob/master/jupyter_over_ssh.md) - How to run a jupyter-notebook session over an SSH tunnel  
