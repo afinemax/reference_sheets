@@ -58,7 +58,7 @@ CHIME is a radio interferometer with the following characteristics:
 ### Calibration
 
 - Beamforming: Corrects geometric + instrumental delays
-- Complex gain: \( G = A e^{-i\phi} \)
+- Complex gain: $G = A e^{-i\phi}$
   - Determined daily via bright sources: Cas A, Cyg A, Vir A, Tau A
 - Calibration depends on season and source visibility
 - Stored gains used for baseband analysis
