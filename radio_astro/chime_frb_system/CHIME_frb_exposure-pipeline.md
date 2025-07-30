@@ -84,7 +84,7 @@ callback_logs/
 ### pulsar_data:
 
 > ⚠️ **Important Note:**  
-> If the most recent files are the following, named with a `yymmdd`  then the most recent **pulsar metric generation run has failed**.  These are generated at the end of a pulsar metric run. 
+> If the most recent files are **not** the following, named with a `yymmdd`  then the most recent **pulsar metric generation run has failed**.  These are generated at the end of a pulsar metric run. 
 > 
 > You should:
 > - Notify the current maintainer of the exposure pipeline.
