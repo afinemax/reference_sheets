@@ -11,4 +11,4 @@ This repository serves as a collection of commonly used Git, Linux, Python, and 
 * [Anaconda Environments](https://github.com/afinemax/dev-reference/blob/master/managing_python_conda_envs.md) - How to create, switch, import, export anaconda `python` environments, as well as installing packages  
 * [Docker](https://github.com/afinemax/dev-reference/blob/master/docker_basics.md) - How to download and run a docker image, how to use a docker compose `.yml` file, and how to start an interactive docker image session  
 * [Color Generator](https://coolors.co/) - Aesthetic and intuitive color blind friendly palette generator
-
+* [Conda Envs](https://github.com/afinemax/dev-reference/blob/master/conda_envs) - `.yml` files to recreate my Conda environments 
