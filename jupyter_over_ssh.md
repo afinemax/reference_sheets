@@ -14,10 +14,11 @@ jupyter notebook --no-browser --port=8888
 
 # 3. Set Up an SSH Tunnel from Your Local Machine
 # On your local machine, run:
-ssh -L 8888:localhost:8888 user@remote-server
+ssh -N -L 8888:localhost:8888 user@remote-server
 # Replace 'user' with your remote username.
 # Replace 'remote-server' with the remote machine's address.
 # The -L 8888:localhost:8888 part forwards traffic from your local port 8888 to the remote port 8888.
+# the -N doesnt open a terminal in the host
 
 # 4. Access Jupyter Notebook in Your Local Browser
 # Once the SSH tunnel is established, open your browser and go to:
