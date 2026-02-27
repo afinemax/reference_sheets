@@ -7,12 +7,10 @@ git config --global user.name "Your Name"  # Set global username
 git config --global user.email "your.email@example.com"  # Set global email
 git config --list  # View current configurations
 git config --global --unset user.email  # Remove a config
-
 git config --global core.editor "nano -w"  # Change / choose .txt editor
 git config --global init.defaultBranch main  # Set default branch name
 git config --global core.autocrlf input  # Tell git to always use the same line ending between mac, linux, and windows (this is the Linux and mac command to run)
 git config --global pull.rebase false # attempts to merge only, not rebase when doing a git pull 
-
 ```
 
 ## Repository Setup
@@ -43,6 +41,7 @@ git checkout -b <name>  # Create and switch to a new branch
 git merge <branch>   # Merge branch into current branch
 git rebase <branch>  # Rebase current branch onto another
 git push --set-upstream origin <branch> # Create branch on upstream
+git fetch origin # Pulls remote branches so you can switch into them
 ```
 
 ## Remote Repositories
