@@ -42,6 +42,7 @@ git merge <branch>   # Merge branch into current branch
 git rebase <branch>  # Rebase current branch onto another
 git push --set-upstream origin <branch> # Create branch on upstream
 git fetch origin # Pulls remote branches so you can switch into them
+git fetch upstream # this does the same thing but with forks?? 
 ```
 
 ## Remote Repositories
