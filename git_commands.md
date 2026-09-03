@@ -21,7 +21,8 @@ git commit -m "Initial commit with README"
 # 5. Create a new repo on GitHub (replace <user> and <project_name>)
 # You can do this manually on GitHub website or use GitHub CLI:
 # you can do this online, be sure to make a github ssh key!
-gh repo create <user>/<project_name> --ssh --public --confirm
+# reconmend to do this on the website
+git repo create <user>/<project_name> --ssh --public --confirm
 
 # 6. Link your local repo to the GitHub remote
 git remote add origin git@github.com:<user>/<project_name>.git
