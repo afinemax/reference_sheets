@@ -1,9 +1,12 @@
 
 
 ### Making a New Directory 
-You need `git` installed, open the terminal and type `git` and check. If you are on windows, I recommend the Linux sub-system for windows, and using that terminal. 
+You need `git` installed, open the terminal and type `git` and check. If you do not have it installed follow the instructions [here](https://git-scm.com/install/linux).  If you are on windows, I recommend the [Linux sub-system for windows](https://learn.microsoft.com/en-us/windows/wsl/install), and using that terminal. 
 
 ```sh
+# 0. Navigate to where you want to create your directory 
+cd path/to/projects
+
 # 1. Create a new directory for your project and enter it
 mkdir <project_name>
 cd <project_name>
@@ -36,16 +39,15 @@ git push -u origin main
 ## Basic `git` workflow
 
 This is how you add files from your terminal to the Github.com repo. 
-```bash
-
+```sh
 cd path/to/project # execute the following commands from inside the git dir
 
-# you do work on the project
+# Do work on the project
 
 git add <file1> # adds file to track for the next gitpush
 git add <file2> # you can add multiple files to one git commit or git push
 
-git commit -m 'your commit message' # this commits to your local
+git commit -m 'your commit message' # this commits or "saves" it to your local
 
 git push # this pushes the commit to the github online repo
 
