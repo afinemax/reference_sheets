@@ -45,7 +45,7 @@ cd path/to/project # execute the following commands from inside the git dir
 git add <file1> # adds file to track for the next gitpush
 git add <file2> # you can add multiple files to one git commit or git push
 
-git commit -m 'your commit message' # this commits the to your local
+git commit -m 'your commit message' # this commits to your local
 
 git push # this pushes the commit to the github online repo
 
@@ -220,5 +220,4 @@ cz c # Use instead of git commit, use git add normally
 
 
 
-
-_This is a basic reference. For more details, consult `git help <command>`.
+This is a basic reference. For more details, consult `git help <command>`.
