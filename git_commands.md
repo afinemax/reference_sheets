@@ -1,5 +1,58 @@
 
 
+### Making a New Directory 
+You need `git` installed, open the terminal and type `git` and check. If you are on windows, I recommend the Linux sub-system for windows, and using that terminal. 
+
+```sh
+# 1. Create a new directory for your project and enter it
+mkdir <project_name>
+cd <project_name>
+
+# 2. Initialize a new git repository
+git init
+
+# 3. Create a README file (optional but recommended)
+echo "# <project_name>" >> README.md # aka the first file
+
+# 4. Stage your files and commit
+git add README.md
+git commit -m "Initial commit with README"
+
+# 5. Create a new repo on GitHub (replace <user> and <project_name>)
+# You can do this manually on GitHub website or use GitHub CLI:
+# you can do this online, be sure to make a github ssh key!
+gh repo create <user>/<project_name> --ssh --public --confirm
+
+# 6. Link your local repo to the GitHub remote
+git remote add origin git@github.com:<user>/<project_name>.git
+
+# 7. Push your initial commit to the main branch on GitHub
+git branch -M main
+git push -u origin main
+
+```
+
+## Basic `git` workflow
+
+This is how you add files from your terminal to the Github.com repo. 
+```bash
+
+cd path/to/project # execute the following commands from inside the git dir
+
+# you do work on the project
+
+git add <file1> # adds file to track for the next gitpush
+git add <file2> # you can add multiple files to one git commit or git push
+
+git commit -m 'your commit message' # this commits the to your local
+
+git push # this pushes the commit to the github online repo
+
+# if you do work on the github repo from another computer or online
+git pull # updates your local to the online version 
+
+```
+
 ## Configuration
 Remove the `--global` to do a config for a local git repo. 
 ```sh
@@ -145,37 +198,6 @@ git fetch origin
 
 # Pull the latest changes from a specific branch of the remote repository and merge them into the current local branch
 git pull origin <branch-name>
-
-```
-
-
-### Making a New Directory 
-
-```sh
-# 1. Create a new directory for your project and enter it
-mkdir <project_name>
-cd <project_name>
-
-# 2. Initialize a new git repository
-git init
-
-# 3. Create a README file (optional but recommended)
-echo "# <project_name>" >> README.md
-
-# 4. Stage your files and commit
-git add README.md
-git commit -m "Initial commit with README"
-
-# 5. Create a new repo on GitHub (replace <user> and <project_name>)
-# You can do this manually on GitHub website or use GitHub CLI:
-gh repo create <user>/<project_name> --ssh --public --confirm
-
-# 6. Link your local repo to the GitHub remote
-git remote add origin git@github.com:<user>/<project_name>.git
-
-# 7. Push your initial commit to the main branch on GitHub
-git branch -M main
-git push -u origin main
 
 ```
 
