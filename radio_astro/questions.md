@@ -4,4 +4,5 @@
 
 Question: In radio astro what does octave mean? Some people use it like 400-800 MHz octave. 
 
+Question: what does EG, and IE mean and when to use which?
 

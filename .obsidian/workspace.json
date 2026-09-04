@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "19724b244f2546cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "26567ba696e8b988",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6911c2c7a955bbba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed16db79f77de08c",
+    "type": "split",
+    "children": [
+      {
+        "id": "92a55f682cba4822",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "753d59373e33c4bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7e6c42d92fa1cc52",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fa69859eb4216541",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "1a6be61825806e12",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c8a7279721e1e30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8d22543a2f16fba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git_commands.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for git_commands"
+            }
+          },
+          {
+            "id": "987a9abaa12d9d11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "git_commands.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from git_commands"
+            }
+          },
+          {
+            "id": "628a1a1c95184098",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "61d1d80184ca4e4b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git_commands.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of git_commands"
+            }
+          },
+          {
+            "id": "28e3ecbb5bc0654a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "753d59373e33c4bb",
+  "lastOpenFiles": [
+    "Untitled.base",
+    "git_commands.md",
+    "config_files",
+    "managing_chime_exposure.md",
+    "radio_astro/chime_frb_system/CHIME_frb_exposure-pipeline.md",
+    "machine_learning/machine_learning_for_physics_and_astronomy/chapter_03.md",
+    "machine_learning/machine_learning_for_physics_and_astronomy/chapter_02.md",
+    "machine_learning/machine_learning_for_physics_and_astronomy/vocab.md",
+    "common_ssh_portforwards.md",
+    "radio_astro/chime_frb_system/CHIME_frb_detection_pipeline.md",
+    "radio_astro/chime_frb_system/images/rms_variation_hist.png",
+    "radio_astro/chime_frb_system/images/CHIME_FRB_sens_excised_10_percent.png",
+    "radio_astro/chime_frb_system/images",
+    "radio_astro/chime_frb_system/CHIME_frb_exposure-pipeline_old.md",
+    "radio_astro/chime_frb_system/exposure-handbook.md",
+    "machine_learning/machine_learning_for_physics_and_astronomy",
+    "machine_learning",
+    "radio_astro/questions.md",
+    "radio_astro/README.md",
+    "radio_astro/reading_list.md",
+    "radio_astro/exposure-handbook.md",
+    "radio_astro/Reading list.md",
+    "radio_astro",
+    "images",
+    "faq.txt",
+    "docker_basics.md",
+    "linux.md"
+  ]
+}

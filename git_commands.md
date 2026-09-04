@@ -1,7 +1,7 @@
 
 
 ### Making a New Directory 
-You need `git` installed, open the terminal and type `git` and check. If you do not have it installed follow the instructions [here](https://git-scm.com/install/linux).  If you are on windows, I recommend the [Linux sub-system for windows](https://learn.microsoft.com/en-us/windows/wsl/install), and using that terminal. 
+You need `git` installed, open the terminal and type `git` and check. If you do not have it installed follow the instructions [here](https://git-scm.com/install/linux).  If you are on windows, I recommend the [Linux sub-system for windows](https://learn.microsoft.com/en-us/windows/wsl/install), and using that terminal.  
 
 ```sh
 # 0. Navigate to where you want to create your directory 
@@ -22,10 +22,7 @@ git add README.md
 git commit -m "Initial commit with README"
 
 # 5. Create a new repo on GitHub (replace <user> and <project_name>)
-# You can do this manually on GitHub website or use GitHub CLI:
-# you can do this online, be sure to make a github ssh key!
-# reconmend to do this on the website
-git repo create <user>/<project_name> --ssh --public --confirm
+# You can do this manually on GitHub website, go to repos and click new repo
 
 # 6. Link your local repo to the GitHub remote
 git remote add origin git@github.com:<user>/<project_name>.git

@@ -1,5 +1,4 @@
 
-
 **Last Updated:** July 2025
 **Current Maintainer**: Maxwell A. Fine email: maxwell.fine@mail.mcgill.ca 
 
@@ -84,7 +83,7 @@ callback_logs/
 ### pulsar_data:
 
 > ⚠️ **Important Note:**  
-> If the most recent files are **not** the following, named with a `yymmdd`  then the most recent **pulsar metric generation run has failed**.  These are generated at the end of a pulsar metric run. 
+> If the most recent files are **not** the following, named with a `yymmdd`  then the most recent **pulsar metric generation run has failed**.  These are generated at the end of a pulsar metric run.  Be sure to inspect the plots to ensure that they appear reasonable. 
 > 
 > You should:
 > - Notify the current maintainer of the exposure pipeline.
@@ -137,11 +136,16 @@ total 56725022
 ```
 
 * `CHIME_FRB_sens_excised_10_percent.png` - a plot of the CHIME sensitivity vs time showing the excised times
+<div style="text-align: center;">
+  <img src="images/CHIME_FRB_sens_excised_10_percent.png" width="70%">
+</div>
 
-![[CHIME_FRB_sens_excised_10_percent 1.png]]
 
 * `rms_variation_hist.png` - a plot showing the relative RMS noise 
-![[rms_variation_hist.png]] 
+<div style="text-align: center;">
+  <img src="images/rms_variation_hist.png" width="50%">
+</div>
+
 * `RMS_variation_all_pulsars.npz`, and `RMS_variation_all_pulsars_250312.npz`
 	* contain `cal_times`, `sens_dec`, `std_dec`, `to_excise`, `num_pulsars`, `dtype`
 	* Used in the sensitivity calculation. 
@@ -157,8 +161,6 @@ total 56725022
 2018-08-31T13:29:03.696357000 # start poor operations
 2018-08-31T18:28:12.654094000 # end poor operations
 ```
-
-
 
 ---
 ## Generating the Metrics
@@ -198,8 +200,10 @@ The main notebook to use the metrics is located [here - submit_workflow_jobs.ipy
 - **Get exposure for one sky position**
 	- it can get the exposure for just one position in the sky, given the RA and DEC (in degrees). If you don't have exposure maps generated.
 	* More info on the code can be found [here] [https://github.com/CHIMEFRB/frb-exposure/blob/master/exposure/exposure_detailed_per_src_workflow.py]
+* You can check on your running job by visiting the CHIME workflow website [here](https://frb.chimenet.ca/workflow/web/login)
 ### Calculate_transit_and_FWHM_extent.ipynb
 - This is another notebook for calculating the transit, and FWHM extent for a single `event_id` given its RA, and DEC
+- Notebook is [here](https://github.com/CHIMEFRB/frb-exposure/blob/master/exposure/Calculate_transit_and_FWHM_extent.ipynb)
 
 ---
 ## Maintenance:

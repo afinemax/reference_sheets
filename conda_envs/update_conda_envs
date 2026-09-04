@@ -1,0 +1,14 @@
+#!/bin/bash
+cd ~/afinemax/khazad-dum/research/reference_sheets/conda_envs
+
+# List of your environments
+envs=("apsyn" "astron_research_2024" "chime_exposure" "chimefrb-py3" \
+"exoplanets" "hail_sagan_2024" "machine_learning" "masters_thesis" "phd" "picaso")
+
+# Export each environment
+for env in "${envs[@]}"; do
+    echo "Exporting $env..."
+    conda env export -n "$env" > "${env}.yml"
+    # Remove the absolute prefix to make it portable
+    sed -i '/prefix:/d' "${env}.yml"
+done
