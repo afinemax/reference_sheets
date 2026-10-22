@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "26567ba696e8b988",
+        "id": "103ec972cd75dea3",
         "type": "tabs",
         "children": [
           {
-            "id": "6911c2c7a955bbba",
+            "id": "5514bf172c91fdeb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,7 +164,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,8 +182,10 @@
   },
   "active": "753d59373e33c4bb",
   "lastOpenFiles": [
-    "Untitled.base",
+    "stats_bayesian_methods",
+    "stats_bayesian_methods.md",
     "git_commands.md",
+    "Untitled.base",
     "config_files",
     "managing_chime_exposure.md",
     "radio_astro/chime_frb_system/CHIME_frb_exposure-pipeline.md",
